@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
@@ -9,27 +7,31 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
-        
+        Managers.input.KeyAction -= OnKeyboard;
+        Managers.input.KeyAction += OnKeyboard;
     }
 
-    // GameObject (Player)
-        // Trasnform
-        // PlayerController
-    void Update()
+    void OnKeyboard()
     {
-        // Local -> World
-        // transform.TransformDirection
-
-        // World -> Local
-        // transform.InverseTransformDirection
-
         if (Input.GetKey(KeyCode.W))
-            transform.Translate(Vector3.forward * Time.deltaTime * speed);
+        {
+            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(Vector3.forward), 0.2f);
+            transform.position += Vector3.forward * Time.deltaTime * speed;
+        }
         if (Input.GetKey(KeyCode.S))
-            transform.Translate(Vector3.back * Time.deltaTime * speed);
+        {
+            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(Vector3.back), 0.2f);
+            transform.position += Vector3.back * Time.deltaTime * speed;
+        }
         if (Input.GetKey(KeyCode.A))
-            transform.Translate(Vector3.left * Time.deltaTime * speed);
+        {
+            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(Vector3.left), 0.2f);
+            transform.position += Vector3.left * Time.deltaTime * speed;
+        }
         if (Input.GetKey(KeyCode.D))
-            transform.Translate(Vector3.right * Time.deltaTime * speed);
+        {
+            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(Vector3.right), 0.2f);
+            transform.position += Vector3.right * Time.deltaTime * speed;
+        }
     }
 }

@@ -6,7 +6,10 @@ public class Managers : MonoBehaviour
 {
     // 싱글턴 패턴
     static Managers s_instance; // 유일성이 보장된다.
-    public static Managers Instance { get { init(); return s_instance; } } // 유일한 매니저를 가져온다.
+    static Managers Instance { get { init(); return s_instance; } } // 유일한 매니저를 가져온다.
+
+    InputManager _input = new InputManager();
+    public static InputManager input { get { return Instance._input; } }
 
     void Start()
     {
@@ -15,7 +18,7 @@ public class Managers : MonoBehaviour
 
     void Update()
     {
-        
+        _input.OnUpdate();    
     }
 
     static void init()

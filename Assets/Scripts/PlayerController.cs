@@ -3,12 +3,11 @@
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] float speed = 10.0f;
-    public GameObject _obj;
 
     void Start()
     {
-        Managers.input.KeyAction -= OnKeyboard;
-        Managers.input.KeyAction += OnKeyboard;
+        Managers.Input.KeyAction -= OnKeyboard;
+        Managers.Input.KeyAction += OnKeyboard;
     }
 
     void OnKeyboard()

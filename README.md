@@ -2,7 +2,7 @@
 ### 지식공유자 : [Rookiss](https://www.inflearn.com/instructors/230375/courses)  
 ## 교육 일기 
 ### 0920_Singleton, Component
-유니티는 Component 패턴 으로 이루어져있고 해당 패턴을 이해할 수 있고 가장 많이 쓰이는 패턴 중 하나인 **Singleton 패턴** 을 이용해 Managers 클래스를 만들어 각종 Manager들을 관리함. 
+유니티는 **Component 패턴** 으로 이루어져있고 해당 패턴을 이해할 수 있고 가장 많이 쓰이는 패턴 중 하나인 **Singleton 패턴** 을 이용해 Managers 클래스를 만들어 각종 Manager들을 관리함. 
 *Ex)SoundManger, ResourcesManager, InputManager 등...* 
 ### 0921_Position 
 유니티 내부의 **World 좌표계**와 **Local 좌표계**를 구분하고 필요에 따라 사용할 수 있다. 

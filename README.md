@@ -1,7 +1,7 @@
 ## MMORPG.Unity    
 ### 지식공유자 : [Rookiss](https://www.inflearn.com/instructors/230375/courses)  
 ## 교육 일기 
-### <span style="color:blue"> 0920_Singleton, Component </span>
+<span style="color:blue"> ### 0920_Singleton, Component </span>
 유니티는 **Component 패턴** 으로 이루어져있고 해당 패턴을 이해할 수 있고 가장 많이 쓰이는 패턴 중 하나인 **Singleton 패턴** 을 이용해 Managers 클래스를 만들어 각종 Manager들을 관리함. 
 *Ex)SoundManger, ResourcesManager, InputManager 등...* 
 ### 0921_Position 

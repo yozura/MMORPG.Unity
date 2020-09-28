@@ -3978,7 +3978,7 @@ Animator:
   m_GameObject: {fileID: 5582416513142400731}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e02814c4bcdec1f4bb80e7ebc29e7319, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -4012,9 +4012,9 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!136 &10983112
 CapsuleCollider:
@@ -4027,9 +4027,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.31331682
-  m_Height: 1.6280184
+  m_Height: 1.5838751
   m_Direction: 1
-  m_Center: {x: 0.017918646, y: 0.746984, z: -0.008895636}
+  m_Center: {x: 0.017918646, y: 0.76905566, z: -0.008895636}
 --- !u!1 &5582416513142400733
 GameObject:
   m_ObjectHideFlags: 0

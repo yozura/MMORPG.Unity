@@ -15,3 +15,6 @@
 ### 0925_Raycast, Camera, Animation 
 **Physics.RayCast** 함수를 이용해 오브젝트의 충돌을 구현할 수 있고 **CameraController**를 만들어서 카메라의 위치 변환을 전담하도록 했다. 
 **LayerMask**를 이용해 충돌에서 제외시키거나 원하는 Layer만 충돌할 수 있도록 할 수 있고 그 점을 이용해 카메라와 플레이어 사이에 벽이 있을 경우 벽을 Raycast로 감지해서 카메라가 플레이어에게 근접하도록 구현했다. **Animator.Play()** 함수를 이용해 원하는 부분에 사용할 수 있도록 했다. **Animation Blend Tree**를 이용해서 IDLE 애니메이션과 RUN 애니메이션 사이의 부자연스러운 점을 믹싱해서 자연스럽게 구현했다. 
+### 0928_State, AnimationEvent  
+플레이어의 움직임 등을 enum으로 나누어서 관리하는 **State 패턴**을 배웠고 해당 패턴과 유사한 유니티 **State Machine**을 사용함.  
+유니티 에디터에서 Animation을 직접 만들고 **Event**를 기입하고 작동할 수 있음  

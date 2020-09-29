@@ -49,10 +49,4 @@ public class VectorTest : MonoBehaviour
         // 1. 거리(크기) magnitude
         // 2. 실제 방향
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

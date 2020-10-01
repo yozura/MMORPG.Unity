@@ -18,6 +18,9 @@ public class PlayerController : MonoBehaviour
     {
         Managers.Input.MouseAction -= OnMouseClicked;
         Managers.Input.MouseAction += OnMouseClicked;
+
+        // TEMP
+        Managers.UI.ShowSceneUI<UI_Inven>();
     }
 
     void Update()
@@ -54,7 +57,6 @@ public class PlayerController : MonoBehaviour
         {
             _destPos = hitinfo.point;
             _state = PlayerState.Moving;
-            Debug.Log($"Raycast Camera @ {hitinfo.collider.gameObject.tag} !");
         }
     }
     

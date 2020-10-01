@@ -19,5 +19,7 @@
 플레이어의 움직임 등을 enum으로 나누어서 관리하는 **State 패턴**을 배웠고 해당 패턴과 유사한 유니티 **State Machine**을 사용함.  
 유니티 에디터에서 Animation을 직접 만들고 **Event**를 기입하고 작동할 수 있음  
 ### 0929_UI 자동화, Extension  
-C# Extension 문법은 함수가 static 함수일때만 적용이 가능하다. *ex)void OnClick(this GameObject go)*
+**C# Extension** 문법은 함수와 클래스가 static일때만 적용이 가능하다. *ex)void OnClick(this GameObject go)*
 UI 자동화는 Dictionary를 하나 만들고 Key에 Type을 Value에는 UnityEngine.Object를 넣고 생성한 Enum의 name과 Object의 name이 같을 경우 해당 UI를 특정하여 관리할 수 있게 해주었다.
+### 1001_UIManager, 인벤토리 실습, 코드 정리  
+미리 만들어둔 Bind함수를 이용해 **UIManager**를 간편하게 만들어보았고 인벤토리를 만드는 실습을 했고, 이제까지 작성한 코드를 정리하는 시간을 가졌다.

@@ -23,3 +23,5 @@
 UI 자동화는 Dictionary를 하나 만들고 Key에 Type을 Value에는 UnityEngine.Object를 넣고 생성한 Enum의 name과 Object의 name이 같을 경우 해당 UI를 특정하여 관리할 수 있게 해주었다.
 ### 1001_UIManager, 인벤토리 실습, 코드 정리  
 미리 만들어둔 Bind함수를 이용해 **UIManager**를 간편하게 만들어보았고 인벤토리를 만드는 실습을 했고, 이제까지 작성한 코드를 정리하는 시간을 가졌다.
+### 1002_SceneManager 
+각종 Scene을 관리하는 **SceneManager**를 만들었다.

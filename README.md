@@ -25,3 +25,5 @@ UI 자동화는 Dictionary를 하나 만들고 Key에 Type을 Value에는 UnityE
 미리 만들어둔 Bind함수를 이용해 **UIManager**를 간편하게 만들어보았고 인벤토리를 만드는 실습을 했고, 이제까지 작성한 코드를 정리하는 시간을 가졌다.
 ### 1002_SceneManager 
 각종 Scene을 관리하는 **SceneManager**를 만들었다.
+### 1005_SoundManager 
+**AudioClip, AuidoSource, AudioListener** 등 유니티에서 사운드를 구현하기 위해 필요한 컴포넌트들을 필요할 때마다 사용할 수 있게끔 **SounManagerManager**만들었다.

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
 public class LoginScene : BaseScene
 {
@@ -7,7 +8,6 @@ public class LoginScene : BaseScene
     {
         base.Init();
         SceneType = Define.Scene.Login;
-
     }
 
     private void Update()

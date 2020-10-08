@@ -31,4 +31,5 @@ UI 자동화는 Dictionary를 하나 만들고 Key에 Type을 Value에는 UnityE
 자주 사용되는 Object들을 효율적으로 관리하기 위해 **PoolManager를 Stack, Dictionary**를 이용해서 생성했고 **Coroutine**에 대한 기초적인 부분들을 배웠다. 
 ### 1007_DataManager, 환경 설정
 **Json과 Xml을 이용한 데이터 보관 방법**을 알았고 그 중 Json을 통해 Data를 관리하는 DataManager를 만들었다. **Lightmap 및 Terrain**에 대해 기초적인 부분을 배웠다. 그리고 컨텐츠를 추가하기 위해 Asset Store를 이용해 에셋을 다운받았다.
-
+### 1008_NavMesh 이동, 스탯, 마우스 커서 
+유니티에서 지원하는 **Navigation Mash**를 이용해 플레이어의 이동을 구현했고 플레이어 및 몬스터의 스탯을 관리하도록 클래스를 생성해 컴포넌트로 붙여주었다. 그리고 마우스 커서가 상황에 맞게 변하도록 해주었다.

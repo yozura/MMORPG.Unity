@@ -32,6 +32,8 @@
     public enum MouseEvent
     {
         Press,
+        PointerDown,
+        PointerUp,
         Click,
 
     }
